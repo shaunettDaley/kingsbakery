@@ -101,7 +101,7 @@ section.background-parallax {
 
 
 section.menu {
-  background-image: url('/images/background3.jpg');
+  background-image: url('../images/background3.jpg');
   background-repeat: no-repeat;
   height: 700px;
   background-attachment: fixed;
