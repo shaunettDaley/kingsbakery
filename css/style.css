@@ -1,0 +1,183 @@
+
+body {
+color:#000;
+  margin: 0 auto;
+}
+
+
+.page-footer {
+  padding-top: 20px;
+  color: #fff;
+  background-color: #ff7034;
+}
+
+.collection .collection-item {
+  border-bottom: 2px solid #ff7034;
+}
+
+.collapsible-header {
+  font-size:1.5rem;
+}
+
+.btn{
+  background-color: #ff7034;
+}
+
+header{
+  height:100vh; /*969px;*/
+  background-image: url('/images/bakery-back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ /* position:absolute;
+  top:0;*/
+  width:100%;
+  min-width:100%;
+  color:#fff;
+}
+
+nav.transparent {
+  box-shadow: none !important;
+}
+
+nav .brand-logo {
+    text-shadow: 2px 2px 2px #000;
+}
+
+.transparentChange{
+  background-color: #50c878; /*#ff7034;*/ m
+}
+
+.h1-title{
+font-family: 'Playball', cursive;
+text-shadow: teal 5px 4px 4px;
+/*font-family: 'Satisfy', cursive;*/
+}
+
+
+.h1-content{
+  font-family: 'Lobster Two', cursive;
+}
+
+
+.hero-slogan {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding-top: 200px;
+}
+
+
+.section{
+  height:auto;
+}
+
+.card-image {
+  max-height: 300px;
+  height: 300px;
+  overflow: hidden;
+  max-width: 415px;
+  width: 100%;
+}
+
+.section-cont img {
+  max-width: 300px;
+  width: 100%;
+  display: block;
+}
+
+
+img.lunch-tuesday {
+  padding-top: 49px;
+  padding-bottom: 76px;
+}
+
+section.background-parallax {
+  height: 80px;
+}
+
+
+section.menu {
+  background-image: url('/images/background3.jpg');
+  background-repeat: no-repeat;
+  height: 700px;
+  background-attachment: fixed;
+  padding: 50px;
+}
+
+.menu-info {
+ /* background: #fafad2;*/ 
+  border-radius: 10px;
+  height: 581px;
+}
+
+
+.icon-block {
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+    font-size: inherit;
+  }
+  
+  footer.page-footer {
+    margin: 0;
+  }
+
+
+.menu-wrapper{
+ 
+    position: relative;
+    background: #ccc;
+    /* z-index: 99999999999; */
+  
+}
+
+
+ .menu-wrapper:after {
+    position: absolute;
+    background: #ccc;
+    /* z-index: 99999999999; */
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+} 
+
+
+  
+  @media only screen and (max-width : 1366px) {
+
+     /* header{
+        height:700px;
+          }*/
+
+         .hero-slogan {
+          padding-top: 100px;
+        }
+        
+
+  }
+
+  @media only screen and (max-width : 600px) {
+
+      .card-image {
+        max-height: 211px;
+
+    }
+
+    nav .brand-logo {
+      font-size: 1.5rem;
+   
+     }
+
+     h2 {
+      font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.92rem;
+}
+
+  }
