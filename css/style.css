@@ -25,7 +25,7 @@ color:#000;
 
 header{
   height:100vh; /*969px;*/
-  background-image: url('/images/bakery-back.jpg');
+  background-image: url('../images/bakery-back.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -101,7 +101,7 @@ section.background-parallax {
 
 
 section.menu {
-  background-image: url('/images/background3.jpg');
+  background-image: url('../images/background3.jpg');
   background-repeat: no-repeat;
   height: 700px;
   background-attachment: fixed;
